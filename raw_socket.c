@@ -1,5 +1,4 @@
 /***************SimpelSniffer.c*************/
-//auther:duanjigang@2006s
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -7,14 +6,11 @@
 #include <string.h>
 #include <sys/socket.h>
 #include <sys/types.h>
-//#include <linux/if_ether.h>
-//#include <linux/in.h>
-
-#include <sys/socket.h>
 #include <linux/if_packet.h>
 #include <net/ethernet.h> /* the L2 protocols */
 #include <net/if.h>
 #include <sys/ioctl.h>
+
 #define BUFFER_MAX 65535
 #define TRUE 1
 
